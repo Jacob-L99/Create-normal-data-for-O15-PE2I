@@ -209,8 +209,8 @@ def SD_corrected(transformed_K_1, ålder, kön, frame, wat):
     
     data_lines = [line.strip() for line in lines if not line.startswith('%') and line.strip()]
 
-    # Skip the header row
-    data_lines = data_lines[1:]
+    ## Skip the header row
+    # data_lines = data_lines[1:]
     
     # Initialize lists for the columns
     regions, means, stds = [], [], []
